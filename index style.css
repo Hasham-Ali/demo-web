@@ -1,0 +1,133 @@
+/*
+=================
+GLOBLE STYLE
+=================
+*/
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+
+/*
+==============
+Hero Section
+==============
+*/
+
+
+.hero{
+   height: 80vh;
+   background: linear-gradient(to bottom right, #0163b9, #12e3ec);
+   color: #fff;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Russo One', sans-serif;
+}
+.hero h1{
+   font-size: 3em;
+}
+.hero h2{
+   font-size: 2em;
+}
+.hero h3{
+   font-size: 1.5em;
+}
+
+
+/*
+==============
+Menu Section
+==============
+*/
+
+.menu{
+   width: 100%;
+   height: 40px;
+   background: yellow;
+   text-align: center;
+   font-family: 'Russo One', sans-serif;
+
+}
+
+.menu h4 {
+
+   display: inline-block; 
+   
+}
+.menu h4 a{
+   text-decoration: none;
+   display: inline-block;
+   color: black;
+   line-height: 40px;
+   padding: 0px 15px 0px 15px;
+}
+
+
+
+
+/*
+=================
+Services Section
+=================
+*/
+
+
+.Services{
+
+   width: 100%;
+   background: #e2e2e2;
+   text-align: center;
+   padding-top: 100px;
+   padding-bottom: 100px;
+
+}
+.col-wrapper{
+   width: 90%;
+   margin: auto;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   
+   
+
+}
+
+.service-col{
+
+  width: 33.33%;
+  float: left;
+  padding: 10px 25px 10px 25px;
+}
+
+.col-wrapper img{
+    width: 90px;
+    max-width: 100%;
+}
+
+.col-wrapper::after{
+     
+     clear: both;
+     display: table;
+     content: "";
+
+
+}
+
+
+
+/*
+=================
+About Us Section
+=================
+*/
+
+
+.about-us{
+   background-image: url(images/joanna.jpg );
+
+}
